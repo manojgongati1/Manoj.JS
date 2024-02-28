@@ -6,6 +6,7 @@ function makeClass(){
   }
   return Champion;
 }
+
 const x = makeClass();
 console.log(x)
 var champ = new x("Blair")
