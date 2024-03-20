@@ -12,5 +12,5 @@ function aboutArray(array){
         string+=" decreasing";}}
   }
   return string;
-}
+} 
 console.log(aboutArray(arr));
