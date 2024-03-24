@@ -1,0 +1,9 @@
+var argumentsLength = function(...args) {
+    let count = 0;
+    for(x in args){
+      count++
+    }
+  return count;
+};
+
+console.log(argumentsLength(2,3,4))
